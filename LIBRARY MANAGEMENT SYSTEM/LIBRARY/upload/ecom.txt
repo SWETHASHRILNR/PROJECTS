@@ -1,0 +1,10 @@
+create an ecommerce website using springboot mvc, html, css, javascript, bootstrap and mysql.
+1.nav bar->website name, home, products, about, contact, cart, login, register.
+2.register->store the user details in db while registering
+3.use those details to verify user while login.
+4.in home  and while clicking website name show carousel, some products
+5.in products show all products
+6.store all product detials with images in db
+7.on clicking a product show its detials and while clicking add to cart increase the count in cart,
+8.on proceed to pay show the ordered lists with its respective prices
+9.if logged in only allow to shop and change the login option to logout and remove register option
