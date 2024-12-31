@@ -1,0 +1,34 @@
+/* Ensures all product cards in the row have the same height */
+.card-img-top {
+    object-fit: cover; /* Ensures the image covers the top of the card */
+    height: 200px; /* Set the height of the image */
+}
+
+/* Ensuring all product cards are of the same height */
+.product-card {
+    height: 100%; /* Ensures the card takes up the full height of the container */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ensuring that the card-body grows to fill remaining space */
+.product-card-body {
+    flex-grow: 1;
+}
+
+/* Image styling to ensure uniform card height */
+.product-card img {
+    height: 200px; /* Fixed height for product image */
+    object-fit: cover; /* Ensures images don't stretch but cover the space */
+}
+
+/* Add some space between product cards */
+.product-card {
+    margin-bottom: 20px;
+}
+
+/* Optional: Equal width cards */
+.row .col-md-4 {
+    display: flex;
+    justify-content: space-around;
+}
